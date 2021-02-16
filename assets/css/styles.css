@@ -83,3 +83,36 @@ td {
 .grid_titles {
   font-weight: bold;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+  .right_column {
+    display: none;
+  }
+
+  .left_column {
+    width: 100%;
+  }
+
+  .slogan {
+    display: none;
+  }
+
+  .first_nav_item {
+    margin: 0;
+  }
+
+  .navigation ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  .main {
+    padding: 0 20px;
+  }
+}
